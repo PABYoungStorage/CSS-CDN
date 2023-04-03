@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import "buttons.scss";
+@import "colors.scss";
+
+:root{
+    --primary-bg:black;
+    --primary-fg:white;
+    --success:#198754;
+    --danger:#dc3545;
+    --warning:	#FFC107;
+    --info:	#0DCAF0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--primary-bg);
+    color: var(--primary-fg);
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    padding: 20px;
+    font-size: 22px;
+}
+
+.display-flex{
+    display: flex;
+}
+//flex gap
+.g-1{
+    gap: 1px;
+}
+.g-2{
+    gap: 2px;
+}
+.g-3{
+    gap: 4px;
+}
+.g-4{
+    gap: 6px;
+}
+.g-5{
+    gap: 10px;
+}
+// flex directions
+.flex-dir-y{
+    flex-direction: column;
+}
+.flex-dir-ry{
+    flex-direction: column-reverse;
+}
+.flex-dir-x{
+    flex-direction: row;
+}
+.flex-dir-rx{
+    flex-direction: row-reverse;
+}
+
+//align items
+.align-center{
+    align-items: center;
+}
+
+//justify-content
+.justify-center{
+    justify-content: center;
+}
+
+//display block
+.display-block{
+    display: block;
+}
+
+//display grid
+.display-grid{
+    display: grid;
+}
+
+
